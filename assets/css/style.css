@@ -468,3 +468,46 @@ span {
   height: 250px;
   box-shadow: 0 10px 50px 0 rgba(70, 69, 69, 0.2);
 }
+
+/*Sponsors*/
+
+.sponsor-us{
+  width: 80%;
+  height: auto;
+  background-color:#48128f;
+  color:rgb(255, 255, 255);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sponsor-us a{
+  color: white;
+  text-decoration: underline;
+}
+
+#sponsor-logo{
+  filter: grayscale(100%);
+  border-radius: 20px !important;
+  transition: 0.5s;
+}
+
+#sponsor-logo:hover{
+  filter: grayscale(0%);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#iei{
+  filter: grayscale(70%);
+  border-radius: 20px !important;
+  transition: 0.5s;
+}
+
+#iei:hover{
+  filter: grayscale(0%);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
