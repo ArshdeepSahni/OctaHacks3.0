@@ -6,6 +6,7 @@ html, body {
   font-family: 'Maven Pro', sans-serif;
   -webkit-tap-highlight-color: #e0e0e033;
   background-color: black;
+  scroll-behavior: smooth;
 }
 
 /*CSS FOR CUSTOM SCROLLBAR*/
@@ -80,12 +81,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-row{
-  max-width: 55%;
+  max-width: 60%;
 }
 
 .abouttext {
   color: rgb(211, 203, 203);
   letter-spacing: 0.1em;
+  font-size: 17px;
 }
 
 .section-heading{
