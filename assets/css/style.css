@@ -72,6 +72,18 @@ h1, h2, h3, h4, h5, h6 {
     margin-top:220px;
 }
 
+@media only screen and (max-width:430px){
+  #logo{
+    width: 250px;
+  }
+
+  .place-date{
+    font-size: 15px;
+    background-color: black;
+  }
+  
+}
+
 
 /*About Section*/
 .aboutsection{
@@ -152,12 +164,29 @@ span {
 
   .about-row{
     max-width: 90%;
+    padding: 3px;
   }
 
   #minutes, #hours, #days, #seconds {
     font-size: 30px;
   }
+
+  .abouttext{
+    text-align: justify;
+  }
 }
+
+@media only screen and (max-width: 456px) {
+  .count-text{
+    font-size: 15px;
+  }
+  #minutes, #hours, #days, #seconds {
+    font-size: 20px;
+    padding: 8px;
+  }
+
+}
+
 
 /*TIMELINE CSS*/
 .timelinesection{
