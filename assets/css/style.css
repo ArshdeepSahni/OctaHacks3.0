@@ -349,11 +349,17 @@ span {
 
 }
 
+.octa2{
+  display:none;
+  width: 0;
+  height: 0;
+}
+
 #prev-photo {
   position: relative;
   height: 60vh;
 }
-/*
+
 #prev-photo div {
   background-color: rgba(0, 0, 0, 0.753);
   height: 60vh;
@@ -362,6 +368,7 @@ span {
   padding: 2%;
 }
 
+/*
 #prev-photo h1{
   padding-top: 30%;
   text-align: center;
@@ -373,6 +380,20 @@ span {
   font-size: 6vw;
 }
 */
+
+@media only screen and (max-width:900px){
+  .octa2{
+    display: block;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  #prev-photo{
+    display: none;
+  }
+}
 
 
 /*Track Cards*/
