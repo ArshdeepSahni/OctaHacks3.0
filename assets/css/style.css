@@ -145,6 +145,20 @@ span {
   padding: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+  .section-heading{
+    font-size: 35px;
+  }
+
+  .about-row{
+    max-width: 90%;
+  }
+
+  #minutes, #hours, #days, #seconds {
+    font-size: 30px;
+  }
+}
+
 /*TIMELINE CSS*/
 .timelinesection{
   background-color: black;
@@ -268,7 +282,7 @@ span {
   
   /* Full-width containers */
   .timeline-container {
-  width: 100%;
+  width: 90%;
   padding-left: 70px;
   padding-right: 25px;
   }
@@ -292,6 +306,12 @@ span {
   }
 }
 
+@media only screen and (max-width: 1012px) and (min-width: 601px) {
+  .timelinesection{
+    max-height: 600vh;
+  }
+}
+
 .bg2 {
   background-image: url("../Images/octahacks2.jpg");
   background-size: cover;
@@ -304,24 +324,26 @@ span {
   position: relative;
   height: 60vh;
 }
-
+/*
 #prev-photo div {
   background-color: rgba(0, 0, 0, 0.753);
   height: 60vh;
   color: white;
   vertical-align: middle;
-  padding: 1%;
+  padding: 2%;
 }
 
 #prev-photo h1{
+  padding-top: 30%;
   text-align: center;
-  font-size: 120px;
+  font-size: 10vw;
 }
 
 #prev-photo h1 span{
   text-align: center;
-  font-size: 60px;
+  font-size: 6vw;
 }
+*/
 
 
 /*Track Cards*/
@@ -371,6 +393,37 @@ span {
 
 .card-img-top {
   width:50%;
+}
+
+@media only screen and (max-width: 864px) and (min-width: 768px) {
+  .card-title {
+    font-size: 9px;
+  }
+
+  #description-para{
+    font-size: 8px;
+  }
+
+  .card-img-top{
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 1290px) and (min-width: 865px) {
+  .card-title{
+    font-size: 10px;
+  }
+
+  .card-img-top{
+    margin-top: 20px;
+  }
+  
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  .card-img-top {
+    width: 30%;
+  }
 }
 
 /*Image Collage*/
@@ -496,6 +549,7 @@ span {
 .num-text {
   color: white;
   font-size: 15px;
+  padding-bottom: 40px;
 }
 
 .previous .fa{
@@ -541,6 +595,12 @@ span {
   transition: 0.5s;
   cursor: pointer;
 }
+
+@media only screen and (max-width:600px){
+  .sponsor-us{
+    font-size: 17px;
+  } 
+} 
 
 /*Makes all the images undraggable*/
 img{
