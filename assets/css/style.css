@@ -63,23 +63,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .place-date {
   color: rgb(226, 212, 212);
-  font-size: 19px;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
 }
 
 #logo{
-    width:400px;
-    filter:drop-shadow(10px 10px 5px black);
+    width:430px;
+    filter:drop-shadow(10px 10px 5px rgba(20, 20, 20, 0.603));
     margin-top:220px;
 }
 
 @media only screen and (max-width:430px){
   #logo{
-    width: 250px;
+    width: 320px;
   }
 
   .place-date{
     font-size: 15px;
-    background-color: black;
   }
   
 }
@@ -338,6 +339,7 @@ span {
 @media only screen and (max-width: 1012px) and (min-width: 601px) {
   .timelinesection{
     max-height: 600vh;
+    overflow: hidden;
   }
 }
 
@@ -350,7 +352,7 @@ span {
 }
 
 .octa2{
-  display:none;
+  display: none;
   width: 0;
   height: 0;
 }
@@ -361,20 +363,21 @@ span {
 }
 
 #prev-photo div {
-  background-color: rgba(0, 0, 0, 0.753);
+  background-color: rgba(0, 0, 0, 0.651);
   height: 60vh;
   color: white;
   vertical-align: middle;
-  padding: 2%;
+  text-align: center;
+}
+
+
+#prev-photo h1{
+  padding-top: 18vh;
+  text-align: center;
+  font-size: 8vw;
 }
 
 /*
-#prev-photo h1{
-  padding-top: 30%;
-  text-align: center;
-  font-size: 10vw;
-}
-
 #prev-photo h1 span{
   text-align: center;
   font-size: 6vw;
@@ -635,7 +638,7 @@ span {
 }
 
 #iei{
-  filter: grayscale(80%);
+  filter: grayscale(60%);
   border-radius: 20px !important;
   transition: 0.5s;
 }
