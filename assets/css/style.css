@@ -80,12 +80,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about-row{
-  max-width: 55%;
+  max-width: 60%;
 }
 
 .abouttext {
   color: rgb(211, 203, 203);
   letter-spacing: 0.1em;
+  font-size: 17px;
 }
 
 .section-heading{
@@ -291,7 +292,7 @@ span {
 }
 
 .bg2 {
-  background-image: url("../Images/octahacks2.jpeg");
+  background-image: url("../Images/octahacks2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -303,12 +304,26 @@ span {
   height: 60vh;
 }
 
+#prev-photo div {
+  background-color: rgba(0, 0, 0, 0.753);
+  height: 60vh;
+  color: white;
+  vertical-align: middle;
+  padding: 1%;
+}
+
+#prev-photo h1{
+  text-align: center;
+  font-size: 120px;
+}
+
+#prev-photo h1 span{
+  text-align: center;
+  font-size: 60px;
+}
+
+
 /*Track Cards*/
-
-
-
-/*CUSTOM BOOTSTRAP CSS FOR TRACKS*/
-
 .card{
   height:250px;
   margin-bottom:30px;
@@ -471,6 +486,21 @@ span {
 
 /*Sponsors*/
 
+.number {
+  font-size: 45px;
+  color: white;
+  padding: 5px;
+}
+
+.num-text {
+  color: white;
+  font-size: 15px;
+}
+
+.previous .fa{
+  color: #48128f;
+}
+
 .sponsor-us{
   width: 80%;
   height: auto;
@@ -500,7 +530,7 @@ span {
 }
 
 #iei{
-  filter: grayscale(70%);
+  filter: grayscale(80%);
   border-radius: 20px !important;
   transition: 0.5s;
 }
@@ -510,4 +540,44 @@ span {
   transition: 0.5s;
   cursor: pointer;
 }
+
+/*Makes all the images undraggable*/
+img{
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+
+/*Footer*/
+footer{
+  margin-top: 80px;
+}
+
+footer p{
+  color: rgba(255, 255, 255, 0.562);
+  text-align: center;
+}
+
+.social-media{
+  margin-bottom: 20px;
+}
+
+.social-media a{
+  color: #48128f;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px 10px;
+  transition: 0.5s;
+  opacity: 0.8;
+}
+
+.social-media a:hover{
+  transition: 0.5s;
+  color: white;
+  opacity: 1;
+}
+
 
