@@ -591,6 +591,17 @@ span {
   box-shadow: 0 10px 50px 0 rgba(70, 69, 69, 0.2);
 }
 
+.location {
+  text-decoration: none;
+  color: white;
+}
+
+.location:hover {
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid white;
+}
+
 /*Sponsors*/
 
 .number {
@@ -616,13 +627,13 @@ span {
   color:rgb(255, 255, 255);
   border-radius: 10px;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .sponsor-us a{
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 #sponsor-logo{
@@ -649,10 +660,17 @@ span {
   cursor: pointer;
 }
 
+.sponsortext{
+  font-size: 35px;
+}
+
 @media only screen and (max-width:600px){
   .sponsor-us{
     font-size: 17px;
   } 
+  .sponsortext{
+    font-size: 20px;
+  }
 } 
 
 /*Makes all the images undraggable*/
