@@ -88,7 +88,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /*About Section*/
 .aboutsection{
-  min-height: 90vh;
   background-color: black;
   overflow-x: hidden;
 }
@@ -326,13 +325,6 @@ span {
   /* Make all right containers behave like the left ones */
   .right {
   left: 0%;
-  }
-}
-
-@media only screen and (max-width: 1012px) and (min-width: 601px) {
-  .timelinesection{
-    max-height: 600vh;
-    overflow: hidden;
   }
 }
 
