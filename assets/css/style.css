@@ -195,14 +195,7 @@ span {
       /* Needed for children to be absolutely positioned relative to the ent. */
       position: relative;
       /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-      max-height: 150vh;
       overflow-x: hidden;
-}
-
-@media only screen and (max-width: 600px){
-  .timelinesection{
-    max-height: 250vh;
-  }
 }
 
 /* The actual timeline (the vertical ruler) */
