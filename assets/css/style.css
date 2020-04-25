@@ -328,6 +328,13 @@ span {
   }
 }
 
+/* Media queries - Responsive timeline on screens less than 320px wide */
+@media screen and (max-width:320px){
+  .timeline-content {
+    width: 120%;
+  }
+}
+
 .bg2 {
   background-image: url("../Images/octahacks2.jpg");
   background-size: cover;
