@@ -629,7 +629,7 @@ span {
 }
 
 .sponsor-us{
-  width: 80%;
+  width: 85%;
   height: auto;
   background-color:#48128f;
   color:rgb(255, 255, 255);
@@ -684,6 +684,12 @@ span {
 @media only screen and (max-width:500px){
   .email-us {
     font-size: 12px;
+  }
+}
+
+@media only screen and (max-width:320px){
+  .email-us {
+    font-size: 10px;
   }
 }
 
