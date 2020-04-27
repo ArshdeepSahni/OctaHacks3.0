@@ -181,7 +181,7 @@ span {
     font-size: 15px;
   }
   #minutes, #hours, #days, #seconds {
-    font-size: 20px;
+    font-size: 3em;
     padding: 8px;
   }
 
@@ -725,5 +725,3 @@ footer p{
   color: white;
   opacity: 1;
 }
-
-
